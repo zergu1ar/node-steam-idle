@@ -1,0 +1,31 @@
+{
+  "name": "node-steam-idle",
+  "version": "1.0.0",
+  "description": "Idle your steam games hours with node.js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "daemon": "node app.js forever"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zergu1ar/node-steam-idle"
+  },
+  "keywords": [
+    "steam",
+    "steamboost",
+    "idle",
+    "idler"
+  ],
+  "author": "Aleksey Loskutov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zergu1ar/node-steam-idle/issues"
+  },
+  "homepage": "https://github.com/zergu1ar/node-steam-idle#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "steam-totp": "^2.0.1",
+    "steam-user": "^3.21.7"
+  }
+}

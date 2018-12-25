@@ -1,0 +1,27 @@
+{
+  "accounts": [
+    {
+      "username": "",
+      "password": "",
+      "sg_shared_secret": "",
+      "games_to_play": [
+        570,
+        730
+      ],
+      "send_auto_message": true,
+      "auto_message": "I am AFK",
+      "silent": false
+    },
+    {
+      "username": "",
+      "password": "",
+      "sg_shared_secret": "",
+      "games_to_play": [
+        730
+      ],
+      "send_auto_message": false,
+      "auto_message": "",
+      "silent": false
+    }
+  ]
+}
